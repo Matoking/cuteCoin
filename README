@@ -1,8 +1,22 @@
 cuteCoin
 --
 A Bitcoin eWallet front-end, mining pool and trade data watch application
+by Matoking
 
-v. 0.5
+Blog: http://matoking-blog.blogspot.com
+Github page: https://github.com/Matoking/cuteCoin
+
+If you found this application useful, feel free to send Bitcoins to the address:
+1M8Xa6crWwrymzUayCML1MJGqjF4JdGHHx
+
+==
+FEATURES
+==
+
+- Refreshes information periodically, can be adjusted
+- Instawallet front-end
+- Shows Mt. Gox ticker data
+- Shows mining pool stats, supports deepbit, slush's pool, BTC Guild and Mt. Red
 
 ==
 CHANGELOG
@@ -38,3 +52,10 @@ THE SOFTWARE.
 tl;dr
 
 It's MIT license. Just add that wall of license text whenever you modify and distribute the software.
+
+==
+CONTACT
+==
+
+Twitter: @Matoking
+E-mail: jannepulk@gmail.com

@@ -4,8 +4,7 @@ import com.nokia.symbian 1.0
 Page {
     id: page
 
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
+    anchors.fill: parent
 
     Flickable {
         id: flickable
@@ -61,11 +60,11 @@ Page {
 
             text: "Matoking's Blog"
 
-            anchors.bottom: gitHubButton.top
+            anchors.bottom: parent.bottom
             anchors.bottomMargin: 10
 
             anchors.left: parent.left
-            anchors.right: parent.right
+            width: parent.width / 2
 
             onClicked: Qt.openUrlExternally("http://matoking-blog.blogspot.com");
         }
@@ -76,10 +75,11 @@ Page {
             text: "Github Page"
 
             anchors.bottom: parent.bottom
-            anchors.bottomMargin: 20
+            anchors.bottomMargin: 10
 
-            anchors.left: parent.left
             anchors.right: parent.right
+
+            width: parent.width / 2
 
             onClicked: Qt.openUrlExternally("https://github.com/Matoking/cuteCoin");
         }

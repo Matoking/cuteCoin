@@ -13,7 +13,7 @@ symbian:TARGET.UID3 = 0xE6CC492F
 # fail to install if self-signed. By default qmake uses the unprotected
 # range value if unprotected UID is defined for the application and
 # 0x2002CCCF value if protected UID is given to the application
-#symbian:DEPLOYMENT.installer_header = 0x2002CCCF
+symbian:DEPLOYMENT.installer_header = 0x2002CCCF
 
 # Allow network access on Symbian
 symbian:TARGET.CAPABILITY += NetworkServices
