@@ -1,6 +1,6 @@
 cuteCoin
 --
-A Bitcoin eWallet front-end, mining pool and trade data watch application
+A Bitcoin eWallet front-end, mining pool and trade data watch application written in Qt using QML
 by Matoking
 
 Blog: http://matoking-blog.blogspot.com
@@ -51,7 +51,7 @@ THE SOFTWARE.
 
 tl;dr
 
-It's MIT license. Just add that wall of license text whenever you modify and distribute the software.
+It's MIT license. Just add that wall of license text whenever you modify and/or distribute the software.
 
 ==
 CONTACT
