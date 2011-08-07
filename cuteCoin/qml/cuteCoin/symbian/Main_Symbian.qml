@@ -82,11 +82,6 @@ Window {
                 text: "Settings"
                 onClicked: showSettings();
             }
-            MenuItem {
-                id: about
-                text: "About"
-                onClicked: infoBanner.open();
-            }
         }
     }
 

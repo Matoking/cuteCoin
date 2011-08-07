@@ -57,6 +57,20 @@ Page {
         }
 
         Button {
+            id: blogButton
+
+            text: "Matoking's Blog"
+
+            anchors.bottom: gitHubButton.top
+            anchors.bottomMargin: 10
+
+            anchors.left: parent.left
+            anchors.right: parent.right
+
+            onClicked: Qt.openUrlExternally("http://matoking-blog.blogspot.com");
+        }
+
+        Button {
             id: gitHubButton
 
             text: "Github Page"

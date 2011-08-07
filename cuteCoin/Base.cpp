@@ -225,9 +225,9 @@ void Base::checkSettings()
 {
     if (settings->contains("main/settingsFileCreated") == false)
     {
-        qDebug("Settings file v. 0.0.1 created");
+        qDebug("Settings file created.");
         settings->setValue("main/settingsFileCreated", true);
-        settings->setValue("main/version", "0.0.1");
+        settings->setValue("main/version", "0.5");
 
         settings->setValue("generalSettings/periodicalRefresh", true);
         settings->setValue("generalSettings/refreshInterval", 5);
