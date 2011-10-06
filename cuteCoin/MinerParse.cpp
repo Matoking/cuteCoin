@@ -43,7 +43,7 @@ QVariantMap MinerParse::parse(QString poolName, QVariantMap data)
     {
         replyMap["SHARES"] = data.value("rsolved").toString();
         replyMap["ESTIMATED_EARNINGS"] = "N/A";
-        replyMap["UNCONFIRMED_EARNINGS"] = "N/A";
+        replyMap["UNCONFIRMED_EARNINGS"] = data.value("unconfirmed").toString();
         replyMap["CONFIRMED_EARNINGS"] = data.value("balance").toString();
     }
 

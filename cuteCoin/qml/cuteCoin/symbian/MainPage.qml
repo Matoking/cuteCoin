@@ -44,7 +44,7 @@ Page {
         Text {
             id: cuteCoinVersion
 
-            text: "v. 0.5"
+            text: "v. 0.5.1"
             color: "white"
 
             font.pointSize: 10

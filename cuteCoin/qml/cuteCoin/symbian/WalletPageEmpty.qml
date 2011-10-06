@@ -26,7 +26,7 @@ Page {
 
     Button {
         id: createWalletButton
-        text: "Create a wallet"
+        text: "Create an eWallet"
         height: 50
 
         anchors.top: walletEmptyText.bottom

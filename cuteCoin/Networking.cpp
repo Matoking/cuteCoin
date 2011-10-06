@@ -274,7 +274,7 @@ void Networking::updateMinerData()
 
     if (miningPoolName == "BTC Guild") requestUrl = QString("http://www.btcguild.com/api.php?api_key=%1").arg(miningPoolAPIKey);
     else if (miningPoolName == "deepbit") requestUrl = QString("http://deepbit.net/api/%1").arg(miningPoolAPIKey);
-    else if (miningPoolName == "slush's pool") requestUrl = QString("http://mining.bitcoin.cz/accounts/profile/json/%1").arg(miningPoolAPIKey);
+    else if (miningPoolName == "slush's pool") requestUrl = QString("https://mining.bitcoin.cz/accounts/profile/json/%1").arg(miningPoolAPIKey);
     else if (miningPoolName == "Mt. Red") requestUrl = QString("https://mtred.com/api/user/key/%1").arg(miningPoolAPIKey);
 
     networkManager->get(QNetworkRequest(QUrl(requestUrl)))->ignoreSslErrors();
