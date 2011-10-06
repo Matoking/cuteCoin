@@ -22,6 +22,10 @@ FEATURES
 CHANGELOG
 ==
 
+v. 0.5.1
+--
+- slush's pool API fixed
+
 v. 0.5
 --
 - Initial commit
